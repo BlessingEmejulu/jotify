@@ -28,10 +28,6 @@ export function AppSidebar() {
   
   return (
     <aside className="hidden md:flex md:flex-col md:w-64 border-r bg-sidebar text-sidebar-foreground fixed h-full">
-      <div className="flex items-center h-16 border-b px-6 gap-2">
-         <JotifyLogo size={24} className="text-primary" />
-         <h1 className="text-lg font-bold text-primary font-headline">Jotify</h1>
-      </div>
       <ScrollArea className="flex-1 px-4 py-4">
         <nav className="grid items-start gap-2">
           <div className="relative mb-4">
